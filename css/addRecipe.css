@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #f1eacc;
+}
+.filename {
+    border: 0;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text input, textarea{
+    outline: 1px solid black;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 19px;
+    background: none;
+    border: none;
+    padding:0 10px ;
+    margin: 10px 0;
+}
+textarea{
+    height: 100px;
+}
+.text span{
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+}
+.ingred span{
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+}
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    height: 250px; 
+    background: #85786a;
+    border-radius: 19px;
+    padding: 8px 4px;
+    color: #fff;
+    text-align: center;
+}
+.file-upload:hover {
+    background: #85786a;
+}
+.file-upload input[type="file"]{
+   display: none; 
+}
+.file-upload label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.file-upload span {
+    line-height: 36px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/addRecipe.css">
+    <link rel="stylesheet" href="css/info.css">
+    <title>Tagam</title>
+</head>
+
+<body>
+    <div class="topline">
+        <button class="arrow-left">
+            <a href="Main.html"><img src="img/icon/arrow-left.png" alt="" title="" width="24px" height="24px"></a>
+        </button>
+        <span class="name-text">Добавить рецепт</span>
+    </div>
+    <hr>
+
+    <div class="main-page">
+        <div class="upl-file">
+            <div class="file-upload">
+                <label>
+                    <input type="file" name="file">
+                    <span>Выбрать</span>
+                </label>
+            </div>
+            <input type="text" id="filename" class="filename" disabled>
+        </div>
+        <div class="text">
+            <span>Название</span>
+            <input type="text" name="" id="" placeholder="Введите название рецепта">
+            <span>Описание</span>
+            <textarea name="" id="" cols="30" rows="10"placeholder="Введите описание рецепта" wrap="soft"></textarea>
+        </div>
+        <div class="ingred">
+            <span>Ингредиенты</span>
+        </div>
+
+    </div>
+    <script src="js/addRecipe.js"></script>
+</body>
+
+</html>

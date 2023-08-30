@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bottline.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="css/profile.css"> -->
+    <title>Tagam</title>
+</head>
+
+<body>
+    <div class="main-page2">
+        <div class="search-line">
+            <img width="30px" src="img/free-icon-search-2414255.png" alt="ups..">
+            <input type="text" placeholder="Поиск">
+        </div>
+        <hr>
+        <div class="tab">
+            <div class="pre-scrolling">
+
+                <div class="scrolling-wrapper2">
+                    <button class="tablink2" onclick="openPage2('recipes', this, '')" id="defaultOpen">рецепты</button>
+                    <button class="tablink2" onclick="openPage2('Category', this, '')" >категории</button>
+                    <button class="tablink2" onclick="openPage2('type', this, '')" >ингредиенты</button>
+                    <button class="tablink2" onclick="openPage2('TypeKitchen', this, '')" >кухня</button>
+                    
+    
+                    <!-- <div class="search-card">
+                        <button class="tablink" onclick="openPage('Category', this, '')" id="defaultOpen">CategoryName</button>
+                    </div>
+                    <div class="search-card">
+                        <button class="tablink" onclick="openPage('Category', this, '')" id="defaultOpen">CategoryName</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="tabcontent2" id="recipes">
+                <div class="recipe-card">
+                    <a href="RecipeInfo.html?Id=" class="recipe-card-a">
+                        <img class="recipe-card-link"
+                            src="https://cojo.ru/wp-content/uploads/2022/12/krasivye-bliuda-33.webp" alt="ups..">
+                    </a>
+                    <div class="info">
+                        <div class="text">
+                            <p class="name">recipename</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet soluta
+                                neque rerum doloremque, repudiandae vero quibusdam quia accusamus, ullam voluptas, aperiam
+                                possimus laborum non dignissimos iusto expedita? Minus, nemo labore.</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="tabcontent2" id="Category">
+                <!-- <div class="recipe-block">
+                    <a href="Recipes.html" class="category-card">
+                        <img id="blockid" src="https://cojo.ru/wp-content/uploads/2022/12/krasivye-bliuda-33.webp"
+                            alt="ups..">
+                    </a>
+                    <p>recipename</p>
+                </div>
+                <div class="recipe-block">
+                    <a href="" class="category-card">
+                        <img id="blockid" src="https://cojo.ru/wp-content/uploads/2022/12/krasivye-bliuda-33.webp"
+                            alt="ups..">
+                        
+                    </a><p>recipename</p>
+                </div>
+                <div class="recipe-block">
+                    <a href="Recipes.html" class="category-card">
+                        <img id="blockid" src="https://cojo.ru/wp-content/uploads/2022/12/krasivye-bliuda-33.webp"
+                            alt="ups..">
+                        <p>recipename</p>
+                    </a>
+                </div>
+                <div class="recipe-block">
+                    <a href="" class="category-card">
+                        <img id="blockid" src="https://cojo.ru/wp-content/uploads/2022/12/krasivye-bliuda-33.webp"
+                            alt="ups..">
+                        
+                    </a><p>recipename</p>
+                </div> -->
+            </div>
+            <div class="tabcontent2" id="type">
+            </div>
+            <div class="tabcontent2" id="TypeKitchen">
+            </div>
+            <div class="bottline">
+                <div class="icon-bottline">
+                    <a href="Main.html"> 
+                        <img class="img" src="img/icon/main.png" alt="" title="" width="25px" height="">
+                    </a>
+                    <a href="Search.html">
+                        <img class="img" src="img/icon/search.png" alt="" title="" width="" height="">
+                    </a>
+                    <a href="">
+                        <img class="img" src="img/icon/calendar.png" alt="" title="" width="" height="">
+                    </a>
+                    <a href="Profile.html">
+                        <img class="img" src="img/icon/profile.png" alt="" title="" width="" height="">
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+    <script src="js/tab.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
